@@ -1,0 +1,32 @@
+.runline {
+    background: var(--red, rgba(245, 73, 50, 1));
+    padding: px-to-rem(18px) px-to-rem(12px);
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    white-space: nowrap;
+    &__wrapper {
+        display: flex;
+        gap: px-to-rem(12px);
+        padding-right: px-to-rem(12px);
+        align-items: center;
+        &_1 {
+            animation: runline1 60s linear infinite;
+            animation-delay: -60s;
+        }
+        &_2 {
+            animation: runline2 60s linear infinite;
+            animation-delay: -30s;
+        }
+    }
+    &__text {
+        font-family: 'Merriweather';
+        text-transform: uppercase;
+        color: var(--white, #fff);
+        font-size: px-to-rem(22px);
+        line-height: px-to-rem(24.2px);
+        white-space: nowrap;
+        display: inline-block;
+    }
+}

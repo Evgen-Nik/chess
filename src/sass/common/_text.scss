@@ -1,0 +1,42 @@
+.text {
+    font-weight: 400;
+    font-size: px-to-rem(16px);
+    line-height: px-to-rem(19.2px);
+    color: var(--grey49, rgba(49, 49, 49, 1));
+    &_center {
+        display: block;
+        text-align: center;
+    }
+    &_fz18 {
+        font-size: px-to-rem(18px);
+        line-height: px-to-rem(23.4px);
+    }
+    &_fz20 {
+        font-size: px-to-rem(20px);
+        line-height: px-to-rem(24px);
+    }
+    &_fz24 {
+        font-size: px-to-rem(24px);
+        line-height: px-to-rem(28.8px);
+    }
+    &_op60 {
+        opacity: 0.6;
+    }
+    &_op70 {
+        opacity: 0.7;
+    }
+    &_fw500 {
+        font-weight: 500;
+    }
+    &_fw600 {
+        font-weight: 600;
+    }
+    &_through {
+        text-decoration: line-through;
+        text-decoration-color: var(--red, rgba(245, 73, 50, 1));
+        margin-right: px-to-rem(8px);
+    }
+    &_blue {
+        color: var(--blue, rgba(48, 87, 162, 1));
+    }
+}

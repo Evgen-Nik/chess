@@ -1,0 +1,372 @@
+@media (max-width: 1240px) {
+    .container {
+        max-width: 960px;
+    }
+    .support {
+        &__block1 {
+            max-width: px-to-rem(550px);
+        }
+        &__img1 {
+            width: 350px;
+            right: px-to-rem(-400px);
+        }
+        &__block2 {
+            grid-template-columns: auto px-to-rem(520px);
+        }
+        &__img2 {
+            width: 100%;
+        }
+    }
+    .table {
+        &__col {
+            &_1 {
+                width: px-to-rem(250px);
+            }
+        }
+    }
+    .slider {
+        &__slide {
+            padding: 0 px-to-rem(10px);
+        }
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .title  {
+        &_fz60 {
+            font-size: px-to-rem(48px);
+            line-height: px-to-rem(52.8px);
+        }
+        &_fz54 {
+            font-size: px-to-rem(42px);
+            line-height: px-to-rem(50.4px);
+        }
+        &_fz36 {
+            font-size: px-to-rem(32px);
+            line-height: px-to-rem(43.2px);
+        }
+    }
+    .promo {
+        &__wrapper {
+            max-width: px-to-rem(440px);
+        }
+        &__btns {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .support {
+        &__block1 {
+            max-width: px-to-rem(500px);
+        }
+        &__img1 {
+            width: 250px;
+            right: px-to-rem(-200px);
+            top: px-to-rem(20px);
+        }
+        &__block2 {
+            grid-template-columns: auto px-to-rem(600px);
+        }
+        &__img2 {
+            width: 350%;
+        }
+        &__title2 {
+            padding-left: px-to-rem(150px);
+        }
+        &__text {
+            font-size: px-to-rem(18px);
+            line-height: px-to-rem(21.6px);
+        }
+    }
+    .table {
+        &__col {
+            &_1 {
+                width: px-to-rem(250px);
+            }
+        }
+    }
+    .stages {
+        &__title {
+            &_text {
+                font-size: px-to-rem(18px);
+                line-height: px-to-rem(21.6px);
+            }
+        }
+        &__inner {
+            grid-template-columns: 1fr;
+            column-gap: unset;
+        }
+        &__item{
+            &_2 {
+                grid-row: unset;
+            }
+        }
+        &__descr {
+            font-size: px-to-rem(18px);
+            line-height: px-to-rem(21.6px);
+        }
+        &__plane {
+            left: px-to-rem(380px);
+            bottom: 0;
+        }
+    }
+    .slider {
+        &__counter {
+            top: px-to-rem(-100px);
+        }
+        &__slide {
+            width: 50%;
+        }
+        &__img {
+            width: px-to-rem(300px);
+        }
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .logo {
+        width: px-to-rem(213px);
+        margin-top: px-to-rem(18px);
+    }
+    .promo {
+        background: url('../images/main2.jpg') no-repeat,
+                    url('../images/main_bg.jpg') center (center / cover) no-repeat;
+        background-size: 1150px, cover;
+        background-position: 70% 115%;
+        padding-top: px-to-rem(50px);
+        padding-bottom: px-to-rem(289px);
+        &__wrapper {
+            margin-top: px-to-rem(40px);
+        }
+        &__text {
+            width: 70%;
+            text-align: left;
+        }
+    }
+    .runline {
+        padding: px-to-rem(7px) px-to-rem(12px);
+        &__text {
+            font-size: px-to-rem(16px);
+        }
+    }
+    .support {
+        &__title1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        &__img1 {
+            width: px-to-rem(335px);
+            position: unset;
+            margin: px-to-rem(25px) 0;
+        }
+        &__block2 {
+            grid-template: repeat(2, auto) / auto ;
+            gap: 0;
+        }
+        &__img2 {
+            position: relative;
+            width: 100%;
+        }
+        &__title2 {
+            padding-left: 0;
+        }
+    }
+    .stages {
+        margin-top: px-to-rem(120px);
+        &__window {
+            margin-top: px-to-rem(190px);
+        }
+        &__item{
+            &_5 {
+                padding-right: 0;
+            }
+        }
+        &__plane {
+            left: px-to-rem(180px);
+            bottom: 710px;
+        }
+    }
+    .players {
+        margin-top: px-to-rem(187px);
+        margin-bottom: px-to-rem(176px);
+    }
+    .slider {
+        margin-top: px-to-rem(40px);
+        &__counter {
+            top: unset;
+            bottom: px-to-rem(-77px);
+            right: 50%;
+            transform: translateX(50%);
+        }
+        &__img {
+            width: px-to-rem(244px);
+        }
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .title  {
+        &_fz60 {
+            font-size: px-to-rem(36px);
+            line-height: px-to-rem(39.6px);
+        }
+        &_fz54 {
+            font-size: px-to-rem(36px);
+            line-height: px-to-rem(39.6px);
+        }
+        &_fz36 {
+            font-size: px-to-rem(28px);
+            line-height: px-to-rem(37.8px);
+        }
+    }
+    .btn {
+        padding: px-to-rem(12px) px-to-rem(40px);
+        &_small {
+            padding: px-to-rem(7px) px-to-rem(12px);
+        }
+    }
+    .promo {
+        &__text {
+            width: 100%;
+            text-align: left;
+        }
+        &__btns {
+            margin-top: px-to-rem(30px);
+            gap: px-to-rem(14px)
+        }
+    }
+    .support {
+        margin-top: px-to-rem(49px);
+        &__title1 {
+            align-items: left;
+            text-align: left;
+        }
+        &__imgwrap {
+            max-height: px-to-rem(396px);
+        }
+        &__img2 {
+            width: px-to-rem(375px);
+            top: px-to-rem(-45px);
+            left: px-to-rem(-20px);
+        }
+        &__title2 {
+            padding-left: 0;
+        }
+    }
+    .table {
+        margin-top: px-to-rem(29px);
+        margin-bottom: px-to-rem(24px);
+        &__row {
+            display: flex;
+            flex-direction: column;
+            padding: px-to-rem(15px) 0;
+            &_4 {
+                flex-direction: row;
+
+                .table__col_1 {
+                    padding: 0;
+                    margin-right: px-to-rem(12px);
+                    width: px-to-rem(141px);
+                }
+            }
+        }
+        &__col {
+            border: none;
+            padding: 0;
+            &_1 {
+                width: 100%;
+                padding-bottom: px-to-rem(12px);
+            }
+        }
+    }
+    .stages {
+        &__title {
+            &_text {
+                width: 100%;
+                padding-top: px-to-rem(14px);
+                padding-left: 0;
+            }
+        }
+        &__window {
+            margin-top: px-to-rem(143px);
+        }
+        &__inner {
+            display: flex;
+            gap: unset;
+            transition: transform 0.5s ease;
+        }
+        &__item{
+            width: inherit;
+            &_1, &_3 {
+                display: flex;
+                flex-direction: column;
+                gap: 0;
+            }
+        }
+        &__subitem {
+            width: 100%;
+            padding-top: px-to-rem(62px);
+            padding-bottom: px-to-rem(34px);
+            &_1, &_4 {
+                padding-bottom: px-to-rem(28px);
+            }
+            &_2, &_5 {
+                padding-top: 0;
+            }
+        }
+        &__plane {
+            width: px-to-rem(337px);
+            left: px-to-rem(10px);
+            top: px-to-rem(-132px);
+            rotate: -3.5deg;
+        }
+        &__counter {
+            display: flex;
+        }
+    }
+    .slider {
+        &__slide {
+            width: 100%;
+        }
+        &__prev, &__next {
+            width: px-to-rem(36px);
+            height: px-to-rem(36px);
+            img {
+                width: 40%;
+            }
+        }
+        
+    }
+    .footer {
+        padding-bottom: px-to-rem(60px);
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .promo {
+        background: url('../images/main_min.jpg') center (0% / cover) no-repeat,
+                    url('../images/main_bg.jpg') center (center / cover) no-repeat;
+    }
+}

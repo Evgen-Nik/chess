@@ -1,0 +1,8 @@
+.header {
+    position: relative; 
+}
+.logo {
+    position: absolute;
+    margin-top: px-to-rem(26px);
+    z-index: 10;
+}

@@ -1,0 +1,21 @@
+@use "sass:list";
+
+.promo{
+    position: relative;
+    background: url('../images/main1.jpg') center (center / cover) no-repeat;
+    min-height: px-to-rem(700px);
+    padding-top: px-to-rem(64px);
+    &__wrapper {
+        max-width: px-to-rem(542px);
+        margin-top: px-to-rem(60px);
+    }
+    &__text {
+        margin-top: px-to-rem(24px);
+    }
+    &__btns {
+        margin-top: px-to-rem(40px);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: px-to-rem(16px);
+    }
+}

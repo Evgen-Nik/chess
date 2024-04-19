@@ -1,0 +1,33 @@
+@import 'libs/bootstrap-reboot.min';
+
+@import 'base/animations';
+@import 'base/variables';
+
+@import 'fonts/fonts';
+
+* {
+    font-family: 'Golos Text', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1222px;
+    margin: 0 auto;
+}
+
+
+@import 'common/title';
+@import 'common/text';
+@import 'common/btn';
+
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/runline';
+@import 'blocks/support';
+@import 'blocks/stages';
+@import 'blocks/players';
+@import 'blocks/footer';
+
+@import 'blocks/media';

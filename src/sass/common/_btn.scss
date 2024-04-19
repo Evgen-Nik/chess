@@ -1,0 +1,60 @@
+.btn {
+    background: var(--grey31, rgba(31, 31, 31, 1));
+    // height: px-to-rem(72px);
+    padding: px-to-rem(12px) px-to-rem(49px);
+    border-radius: px-to-rem(66px);
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--grey31, rgba(31, 31, 31, 1));
+    display: block;
+    font-size: px-to-rem(16px);
+    font-weight: 500;
+    line-height: px-to-rem(20.8px);
+    color: var(--white, #fff);
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s;
+    &:hover {
+        color: var(--grey31, rgba(31, 31, 31, 1));
+        background: var(--yellow, rgba(251, 206, 81, 1));
+        border-color: var(--yellow, rgba(251, 206, 81, 1));
+    }
+    &_border {
+        background: none;
+        color: var(--grey31, rgba(31, 31, 31, 1));
+        &:hover {
+            color: var(--white, #fff);
+            background: var(--grey31, rgba(31, 31, 31, 1));
+            border-color: var(--grey31, rgba(31, 31, 31, 1));
+        }
+    }
+    &_white {
+        color: var(--grey31, rgba(31, 31, 31, 1));
+        background: var(--white, #fff);
+        border-color: var(--white, #fff);
+        &:hover {
+            color: var(--white, #fff);
+            background: var(--grey31, rgba(31, 31, 31, 1));
+            border-color: var(--grey31, rgba(31, 31, 31, 1));
+        }
+    }
+    &_small {
+        height: px-to-rem(35px);
+        padding: px-to-rem(7px) px-to-rem(12px);
+        border-radius: px-to-rem(62px);
+        border-width: 1px;
+        line-height: px-to-rem(19.2px);
+        min-width: unset;
+    }
+    &_borderblue {
+        background: none;
+        color: var(--blue, rgba(48, 87, 162, 1));
+        border-color: var(--blue, rgba(48, 87, 162, 1));
+        &:hover {
+            color: var(--white, #fff);
+            background: var(--blue, rgba(48, 87, 162, 1));
+            border-color: var(--blue, rgba(48, 87, 162, 1));
+        }
+    }
+    
+}
